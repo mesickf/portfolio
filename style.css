@@ -1,5 +1,5 @@
 * { box-sizing: border-box; }
-body { margin: 0; font-family: system-ui, Arial, sans-serif; line-height: 1.5; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; line-height: 1.25; }
 .site-header, .site-footer { padding: 1.25rem; border-bottom: 1px solid #000; }
 .site-footer { border-top: 1px solid #000; border-bottom: none; }
 nav a { margin-right: .75rem; text-decoration: none; }
