@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, Arial, sans-serif; line-height: 1.25; }
-.site-header, .site-footer { padding: 1.25rem; border-bottom: 1px solid #000; }
-.site-footer { border-top: 1px solid red; border-bottom: none; }
+.site-header, .site-footer { padding: 1.25rem; border-bottom: 1px solid pink; }
+.site-footer { border-top: 1px solid pink; border-bottom: none; }
 nav a { margin-right: .75rem; text-decoration: none; }
 main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
 h1, h2 { margin: .5rem 0; }
