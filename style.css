@@ -125,3 +125,28 @@ h1, h2 { margin: .5rem 0; }
     height: 100px;
   }
 }
+
+  .hero-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+.hero-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.hero-nav a:hover {
+  color: #ff0066;
+}
+
