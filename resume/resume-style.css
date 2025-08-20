@@ -3,7 +3,7 @@ body {background-color: #4a4e69; margin: 0; font-family: system-ui, Arial, sans-
 .site-header, .site-footer { color: white; padding: 1.25rem; border-bottom: 1px solid pink; }
 .site-footer { border-top: 1px solid pink; border-bottom: none; }
 nav a { margin-right: .75rem; text-decoration: none; }
-main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+main { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
 h1, h2 { margin: .5rem 0; }
 .responsive-image {
   max-width: 600px;
@@ -150,20 +150,20 @@ h1, h2 { margin: .5rem 0; }
   color: #ff0066;
 }
 .summary-section {
-  max-width: 800;
-  margin: 2rem auto;  /* centers the section horizontally */
+  margin: 2rem auto;
   text-align: start;
-  color: #ccc;       /* a nice subtle color matching your theme */
+  color: #ccc;
   font-size: 1.1rem;
   line-height: 1.5;
-  padding: 0 1rem;
+  padding:  1rem;
 }
+
 .resume-header-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  margin-bottom: 0.25rem;
+  margin-bottom: -.5rem;
   gap: 1rem; /* adds breathing space */
   flex-wrap: wrap; /* lets it stack on small screens */
 }
