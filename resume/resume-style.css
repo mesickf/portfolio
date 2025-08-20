@@ -158,3 +158,23 @@ h1, h2 { margin: .5rem 0; }
   line-height: 1.5;
   padding: 0 1rem;
 }
+.resume-header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  gap: 1rem; /* adds breathing space */
+  flex-wrap: wrap; /* lets it stack on small screens */
+}
+
+.resume-header-line .left {
+  flex: 1;
+  min-width: 200px; /* optional */
+}
+
+.resume-header-line .right {
+  white-space: nowrap;
+  text-align: right;
+  color: #ccc;
+}
