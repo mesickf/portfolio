@@ -7,56 +7,66 @@
   <link rel="stylesheet" href="resume-style.css" />
 </head>
 <body>
+
+  <!-- Hero Section -->
   <section class="hero">
-  <div class="hero-content">
-    <p class="hero-intro">FRANKIE MESICK</p>
-    <h1 class="gradient-title">Mechanical Engineer</h1>
-    
-        <nav class="hero-nav">
-      <a href="/portfolio/index.html">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="/portfolio/resume/resume.html">Resume</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-  </div>
-  <div class="hero-image">
-    <img src="images/frankie.png" alt="Frankie Mesick" />
-  </div>
-</section>
+    <div class="hero-content">
+      <p class="hero-intro">FRANKIE MESICK</p>
+      <h1 class="gradient-title">Mechanical Engineer</h1>
+
+      <nav class="hero-nav">
+        <a href="/portfolio/index.html">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/frankie.png" alt="Frankie Mesick" />
+    </div>
+  </section>
+
   <main>
+    <!-- Resume Download Button -->
+    <section class="resume-section" id="resume">
+      <div class="download-button-wrapper">
+        <a href="/portfolio/resume/resume.pdf" download class="download-button">
+          Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- Summary -->
     <section class="summary-section" id="summary">
       <h2>Summary</h2>
-      <p>Graduated Mechanical Engineering student, <em>summa cum laude</em>, with an excellent work ethic and strong foundation in mechanical engineering. Excited to apply work experience and knowledge to the mechanical engineering industry to drive innovative ideas and technology to reach organizational goals.</p>
+      <p>
+        Graduated Mechanical Engineering student, <em>summa cum laude</em>, with an excellent work ethic and strong foundation in mechanical engineering. Excited to apply work experience and knowledge to the mechanical engineering industry to drive innovative ideas and technology to reach organizational goals.
+      </p>
     </section>
-    <section class="resume-section" id="resume">
-  <div class="download-button-wrapper">
-    <a href="/portfolio/resume/resume.pdf" download class="download-button">
-      Download Resume
-    </a>
-  </div>
-</section>
 
- <section class="resume-section" id="education">
-  <h2>Education</h2>
+    <!-- Education -->
+    <section class="resume-section" id="education">
+      <h2>Education</h2>
 
-  <div class="resume-header-line">
-    <span class="left">University of Illinois at Chicago</span>
-    <span class="right">Aug 2023 – May 2025</span>
-  </div>
-  <p>Summa Cum Laude<br>Cumulative GPA: 3.51/4.0 | Major GPA: 3.87/4.0</p>
+      <div class="resume-header-line">
+        <span class="left">University of Illinois at Chicago</span>
+        <span class="right">Aug 2023 – May 2025</span>
+      </div>
+      <p>Summa Cum Laude<br>Cumulative GPA: 3.51/4.0 | Major GPA: 3.87/4.0</p>
 
-  <div class="resume-header-line">
-    <span class="left">College Of DuPage</span>
-    <span class="right">Aug 2020 – May 2023</span>
-  </div>
-  <p><strong>Mechanical Engineering</strong><br>Cumulative GPA: 3.2/4.0</p>
-</section>
+      <div class="resume-header-line">
+        <span class="left">College Of DuPage</span>
+        <span class="right">Aug 2020 – May 2023</span>
+      </div>
+      <p><strong>Mechanical Engineering</strong><br>Cumulative GPA: 3.2/4.0</p>
+    </section>
 
-
+    <!-- Experience -->
     <section class="resume-section" id="experience">
       <h2>Professional Experience</h2>
+
       <h3>Design Engineer Intern – HBK Engineering</h3>
       <p>June 2024 – August 2024</p>
       <ul>
@@ -67,8 +77,10 @@
       </ul>
     </section>
 
+    <!-- Projects -->
     <section class="resume-section" id="projects">
       <h2>Projects</h2>
+
       <h3>Lunabotics</h3>
       <p><em>NASA sponsored competition – UIC Engineering Design Team</em><br>August 2024 – May 2025</p>
       <ul>
@@ -85,6 +97,7 @@
       </ul>
     </section>
 
+    <!-- Certifications -->
     <section class="resume-section" id="certifications">
       <h2>Certifications</h2>
       <h3>Certified SolidWorks Associate (CSWA)</h3>
@@ -92,6 +105,7 @@
       <p><a href="https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-TWJRH9D3MF" target="_blank" rel="noopener noreferrer">View Certificate</a></p>
     </section>
 
+    <!-- Skills -->
     <section class="resume-section" id="skills">
       <h2>Core Capabilities / Technical Skills</h2>
       <ul>
@@ -103,11 +117,13 @@
       </ul>
     </section>
 
+    <!-- Relevant Courses -->
     <section class="resume-section" id="courses">
       <h2>Relevant Courses</h2>
       <p>Propulsion Theory, Dynamic Systems and Control, Numerical Methods,<br>Mechatronics, Mechanical Engineering Design, Manufacturing Principles,<br>Engineering Design and Graphics with CAD and Simulation</p>
     </section>
 
+    <!-- Additional Experience -->
     <section class="resume-section" id="additional">
       <h2>Additional Experience</h2>
       <h3>Tin Roof – Barback</h3>
@@ -119,13 +135,13 @@
       </ul>
     </section>
 
-    <!-- Optional PDF Embed -->
-    <!-- <iframe src="resume.pdf"></iframe> -->
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <small>© <span id="year"></span> Francis Mesick</small>
     <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
   </footer>
+
 </body>
 </html>
