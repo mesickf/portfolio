@@ -232,6 +232,6 @@ h1, h2 {
   background-color: #e63946;
 }
 #resume {
-  scroll-margin-top: 80px; /* space from top when scrolled to */
+  scroll-margin-top: 10px; /* space from top when scrolled to */
 }
 
