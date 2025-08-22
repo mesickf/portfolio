@@ -190,19 +190,21 @@ h1, h2 {
   color: #ccc;
 }
 .resume-section h2 {
-  color: #ccc;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
   margin-top: 2rem;  /* space before the title */
+
 }
 
 .resume-section h3{
   margin-bottom: .5rem;
   margin-top: 1rem;
+  font-weight: 600;  /* slightly less bold than h2 */
+  color: white;      /* keeps them distinct from main titles */
 }
-
 
 
