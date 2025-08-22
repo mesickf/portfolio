@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frankie Mesick | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <section class="hero">
-  <div class="hero-content">
-    <p class="hero-intro">FRANKIE MESICK</p>
-    <h1 class="gradient-title">Mechanical Engineer</h1>
-    
-        <nav class="hero-nav">
-      <a href="/portfolio/index.html">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="/portfolio/resume/resume.html" >Resume</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-  <div class="hero-image">
-    <img src="images/frankie.png" alt="Frankie Mesick" />
-  </div>
-</section>
+    <div class="hero-content">
+      <p class="hero-intro">FRANKIE MESICK</p>
+      <h1 class="gradient-title">Mechanical Engineer</h1>
 
-  <main>
-  <section id="summary" class="summary-section">
-  <p>Just a guy who likes to tinker and build things.  Welcome to my portfolio where I have my various projects from academic, personal, and job wise.  Feel free to reach out to me via email or linkedin!</p>
+      <nav class="hero-nav">
+        <a href="/portfolio/index.html">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="/portfolio/resume/resume.html">Resume</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="hero-image">
+      <img src="images/frankie.png" alt="Frankie Mesick" />
+    </div>
   </section>
 
-    <section id ="timeline" class="timeline-section">
+  <main>
+    <section id="summary" class="summary-section">
+      <p>
+        Just a guy who likes to tinker and build things. Welcome to my portfolio where I have my various projects from academic, personal, and job wise. Feel free to reach out to me via email or linkedin!
+      </p>
+    </section>
+
+    <section id="timeline" class="timeline-section">
       <p>TIMELINE</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
       <img src="images/isometric-view-of-full-lunabot-rover.png" alt="Isometric view of the continuous tread mated to Lunabot rover"
-      class="responsive-image">
+        class="responsive-image">
       <p>Coming soon.</p>
     </section>
 
     <section id="about">
       <h2>About</h2>
-      <p>Hello there, my name is Frankie Mesick. I graduated from the University of Illinois Chicago Summa Cum Laude in May of 2025.
-      I decided to build this website as a host for my portfolio to showcase some of the different engineering projects I have done
-      academically, professionally, and as personal projects. I hope you enjoy what you see here and maybe get a little inspiration for yourself :)</p>
+      <p>
+        Hello there, my name is Frankie Mesick. I graduated from the University of Illinois Chicago Summa Cum Laude in May of 2025.
+        I decided to build this website as a host for my portfolio to showcase some of the different engineering projects I have done
+        academically, professionally, and as personal projects. I hope you enjoy what you see here and maybe get a little inspiration for yourself :)
+      </p>
     </section>
 
-    
     <section id="contact">
       <h2>Contact</h2>
       <a href="mailto:mesickf@gmail.com">mesickf@gmail.com</a>
-      <a href="https://www.linkedin.com/in/frankiemesick/" target="_blank" rel=noopener noreferrer>Linkedin</a>
+      <a href="https://www.linkedin.com/in/frankiemesick/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </section>
   </main>
 
   <footer class="site-footer">
     <small>© <span id="year"></span> Frankie Mesick</small>
-    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear()
+    </script>
   </footer>
 </body>
 </html>
