@@ -158,5 +158,8 @@ h1, h2 { margin: .5rem 0; }
   line-height: 1.5;
   padding: 0 1rem;
 }
-
-
+.timeline-section{
+  text-align: center;
+  color: #ccc;
+  font-size: 1.1rem;
+}
