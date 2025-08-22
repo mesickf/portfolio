@@ -207,4 +207,8 @@ h1, h2 {
   color: white;      /* keeps them distinct from main titles */
 }
 
+.resume-header-line .left {
+  font-weight: 600;  /* semi-bold */
+  color: white;      /* stand out against body text */
+}
 
