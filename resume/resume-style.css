@@ -211,3 +211,23 @@ h1, h2 {
   font-weight: 600;  /* semi-bold */
   color: white;      /* stand out against body text */
 }
+.download-button-wrapper {
+  text-align: center; /* centers the button */
+  margin-top: 1rem;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;      /* smaller than main CTA */
+  background-color: #ff4b2b;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;         /* slightly smaller */
+  transition: background 0.3s;
+}
+
+.download-button:hover {
+  background-color: #e63946;
+}
