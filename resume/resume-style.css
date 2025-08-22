@@ -234,4 +234,7 @@ h1, h2 {
 #resume {
   scroll-margin-top: 10px; /* space from top when scrolled to */
 }
+#summary h2 {
+  color: white;
+}
 
