@@ -92,15 +92,15 @@ h3 {
   margin: 0.5rem 0;
 }
 
-/* ===== Hero Navigation ===== */
+/* Hero navigation */
 .hero-nav {
   display: flex;
   justify-content: flex-start; /* keep links left-aligned */
   gap: 1.25rem;                /* spacing between links */
-  margin-top: 2rem;             /* top margin matches home page */
+  margin-top: 2rem;
   flex-wrap: wrap;              /* allow wrapping on small screens */
-  font-size: 1rem;              /* ensure font size consistency */
-  line-height: 1.5;             /* ensure line height consistency */
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .hero-nav a {
@@ -108,8 +108,8 @@ h3 {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
-  letter-spacing: 0.5px;  /* match home page */
-  padding: 0;              /* remove extra padding if any */
+  letter-spacing: 0.5px;
+  padding: 0;
 }
 
 .hero-nav a:hover {
@@ -183,7 +183,7 @@ h3 {
   margin: 0.5rem 0 1rem 1.25rem;
 }
 
-/* Download Button */
+/* ===== Download Button ===== */
 .download-button-wrapper {
   text-align: center;
   margin-top: 1rem;
@@ -221,12 +221,12 @@ h3 {
     height: 100px;
   }
 
-  .resume-header-line .right {
-    font-size: 0.85rem; /* slightly smaller on mobile */
+  .hero-nav {
+    justify-content: center;
+    gap: 1rem;
   }
 
-  .hero-nav {
-    justify-content: center;  /* center nav links on small screens */
-    gap: 1rem;                /* slightly smaller gap for mobile */
+  .resume-header-line .right {
+    font-size: 0.85rem; /* slightly smaller on mobile */
   }
 }
