@@ -140,12 +140,12 @@ h1, h2 {
 
 /* Sections */
 .summary-section {
-  max-width: 800px;
+  max-width: 100%;
   margin: 2rem auto;
   text-align: start;
   font-size: 1.1rem;
   line-height: 1.5;
-  padding: 0 1rem;
+  padding: 0rem;
   color: white; /* White summary header */
 }
 
