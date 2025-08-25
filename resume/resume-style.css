@@ -61,9 +61,9 @@ h3 {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
+  justify-content: space-between; /* keeps left and right aligned */
+  gap: 2rem;                      /* space between hero-content and image */
+  flex-wrap: nowrap;               /* prevents wrapping on desktop */
   padding: 2rem;
   background-color: #1e1e1e;
   color: white;
@@ -92,12 +92,13 @@ h3 {
   margin: 0.5rem 0;
 }
 
+/* Hero navigation */
 .hero-nav {
   display: flex;
-  justify-content: flex-start;  /* important */
-  gap: 1.25rem;
+  justify-content: flex-start; /* keeps links left-aligned */
+  gap: 1.25rem;                /* spacing between links */
   margin-top: 2rem;
-  flex-wrap: wrap;
+  flex-wrap: wrap;              /* allow wrapping on mobile only */
 }
 
 .hero-nav a {
@@ -110,7 +111,6 @@ h3 {
 .hero-nav a:hover {
   color: #ff0066;
 }
-
 
 /* Hero image */
 .hero-image {
@@ -127,6 +127,24 @@ h3 {
   height: 100%;
   object-fit: cover;
   transform: rotate(-45deg);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gradient-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-image {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /* ===== Resume Sections ===== */
