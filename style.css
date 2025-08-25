@@ -161,7 +161,7 @@ h1, h2 {
   font-size: 1.1rem;
   line-height: 1.5;
   padding: 0rem;
-  color: white; /* White summary header */
+  color: #ccc;
 }
 
 .timeline-section {
