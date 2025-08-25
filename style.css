@@ -54,7 +54,7 @@ h1, h2 {
 }
 
 .timeline-image {
-  width: 70vw;          /* full viewport width */
+  width: 50vw;          /* full viewport width */
   max-width: none;       /* removes container limits */
   height: auto;          /* keeps aspect ratio */
   display: block;
