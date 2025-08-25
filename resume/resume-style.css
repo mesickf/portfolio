@@ -1,4 +1,4 @@
-/* ===== Global ===== */
+/* ===== Global Reset ===== */
 * {
   box-sizing: border-box;
 }
@@ -57,12 +57,12 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-/* ===== Hero Section ===== */
+/* ===== Hero Section (matches home page) ===== */
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* keeps left and right aligned */
-  gap: 2rem;                      /* space between hero-content and image */
+  justify-content: space-between; /* left/right alignment */
+  gap: 2rem;                      /* space between content and image */
   flex-wrap: nowrap;               /* prevents wrapping on desktop */
   padding: 2rem;
   background-color: #1e1e1e;
@@ -95,10 +95,10 @@ h3 {
 /* Hero navigation */
 .hero-nav {
   display: flex;
-  justify-content: flex-start; /* keeps links left-aligned */
+  justify-content: flex-start; /* left-align links */
   gap: 1.25rem;                /* spacing between links */
   margin-top: 2rem;
-  flex-wrap: wrap;              /* allow wrapping on mobile only */
+  flex-wrap: wrap;              /* allow wrapping on small screens */
 }
 
 .hero-nav a {
@@ -127,24 +127,6 @@ h3 {
   height: 100%;
   object-fit: cover;
   transform: rotate(-45deg);
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 600px) {
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .gradient-title {
-    font-size: 1.5rem;
-  }
-
-  .hero-image {
-    width: 100px;
-    height: 100px;
-  }
 }
 
 /* ===== Resume Sections ===== */
