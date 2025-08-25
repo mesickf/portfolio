@@ -48,6 +48,21 @@ h1, h2 {
   display: block;
   margin: 0 auto;    /* centers image */
 }
+.timeline-container {
+  width: 100%;          /* full width of page */
+  text-align: center;   /* center the image */
+  overflow: visible;    /* allow image to exceed normal section width */
+}
+
+.timeline-image {
+  max-width: 1200px;    /* bigger than main container */
+  width: 90%;           /* scales down on smaller screens */
+  height: auto;
+  display: inline-block; /* keep it centered */
+  margin: 1.5rem auto;
+  border-radius: 8px;    /* optional */
+}
+
 
 
 /* Hero Section */
