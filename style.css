@@ -43,11 +43,12 @@ h1, h2 {
 
 /* Responsive Image */
 .responsive-image {
-  max-width: 1000px;
-  height: auto;
+  max-width: 100%;   /* will never exceed its parent width */
+  height: auto;      /* maintain aspect ratio */
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;    /* centers image */
 }
+
 
 /* Hero Section */
 .hero {
