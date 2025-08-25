@@ -76,10 +76,10 @@ h3 {
 
 .hero-intro {
   font-size: 1rem;
+  margin: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #ccc;
-  margin: 0;
 }
 
 .gradient-title {
@@ -92,15 +92,13 @@ h3 {
   margin: 0.5rem 0;
 }
 
-/* Hero navigation */
+/* Hero Navigation */
 .hero-nav {
   display: flex;
-  justify-content: flex-start; /* keep links left-aligned */
-  gap: 1.25rem;                /* spacing between links */
+  justify-content: flex-start;
+  gap: 1.25rem;
   margin-top: 2rem;
-  flex-wrap: wrap;              /* allow wrapping on small screens */
-  font-size: 1rem;
-  line-height: 1.5;
+  flex-wrap: wrap;
 }
 
 .hero-nav a {
