@@ -48,19 +48,17 @@ h1, h2 {
   display: block;
   margin: 0 auto;    /* centers image */
 }
-.timeline-container {
-  width: 100%;          /* full width of page */
-  text-align: center;   /* center the image */
-  overflow: visible;    /* allow image to exceed normal section width */
+.timeline-section {
+  text-align: center;
+  padding: 0;           /* optional, remove extra space if you want edge-to-edge */
 }
 
 .timeline-image {
-  max-width: 1200px;    /* bigger than main container */
-  width: 90%;           /* scales down on smaller screens */
-  height: auto;
-  display: inline-block; /* keep it centered */
-  margin: 1.5rem auto;
-  border-radius: 8px;    /* optional */
+  width: 100vw;          /* full viewport width */
+  max-width: none;       /* removes container limits */
+  height: auto;          /* keeps aspect ratio */
+  display: block;
+  margin: 1.5rem 0;      /* spacing above/below */
 }
 
 
