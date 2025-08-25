@@ -153,6 +153,18 @@ h1, h2 {
   font-size: 1.1rem;
 }
 
+.timeline-image {
+  max-width: 600px;   /* keeps it from being too big */
+  width: 100%;        /* scales down to fit smaller screens */
+  height: auto;       /* preserves the image’s aspect ratio */
+  margin-top: 1rem;   /* space above the image */
+  display: block;     /* makes it a block element so margins work properly */
+  margin-left: auto;  /* centers it horizontally */
+  margin-right: auto; /* centers it horizontally */
+  border-radius: 8px; /* optional rounded corners */
+}
+
+
 /* Responsive */
 @media (max-width: 600px) {
   .hero {
