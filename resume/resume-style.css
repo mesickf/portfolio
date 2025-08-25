@@ -95,14 +95,16 @@ h3 {
 /* Hero nav */
 .hero-nav {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 1.25rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .hero-nav a {
-  font-weight: bold;
   color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
   transition: color 0.3s;
 }
 
