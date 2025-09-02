@@ -119,4 +119,26 @@ nav a {
     height: 100px;
   }
 }
+.Senior-Design {
+  display: flex;
+  flex-direction: column; /* so text stacks above images */
+  padding-left: 2rem;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
+.senior-design-photos {
+  display: flex;
+  flex-wrap: wrap;       /* allows wrapping on small screens */
+  gap: 20px;             /* space between images */
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.senior-design-photos img {
+  flex: 1 1 300px;       /* grow/shrink, min width 300px */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;    /* optional rounded corners */
+}
